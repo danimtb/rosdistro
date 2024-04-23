@@ -9009,8 +9009,9 @@ zlib:
   slackware:
     slackpkg:
       packages: [zlib]
-  ubuntu: [zlib1g-dev]
-  conan: [zlib/1.2.11]
+  ubuntu:
+    apt: [zlib1g-dev]
+    conan: [zlib/1.2.11]
 zsh:
   alpine: [zsh]
   arch: [zsh]
