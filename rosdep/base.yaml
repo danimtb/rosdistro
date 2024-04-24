@@ -9010,8 +9010,10 @@ zlib:
     slackpkg:
       packages: [zlib]
   ubuntu:
-    apt: [zlib1g-dev]
-    conan: [zlib/1.2.11]
+    apt:
+      packages: [zlib1g-dev]
+    conan:
+      packages: [zlib/1.2.11]
 zsh:
   alpine: [zsh]
   arch: [zsh]
