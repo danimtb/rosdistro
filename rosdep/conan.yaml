@@ -1,0 +1,4 @@
+zlib/1.2.11:
+  ubuntu:
+    conan:
+      packages: [zlib/1.2.11]
