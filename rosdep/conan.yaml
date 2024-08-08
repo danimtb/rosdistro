@@ -1,5 +1,40 @@
-zlib/1.2.11:
+# https://docs.ros.org/en/independent/api/rosdep/html/rosdep_yaml_format.html
+# ROSDEP_NAME:
+#   OS_NAME1:
+#     PACKAGE_MANAGER1:
+#       PACKAGE_ARGUMENTS_A
+#   OS_NAME2:
+#     PACKAGE_MANAGER2:
+#       PACKAGE_ARGUMENTS_A
+
+conan_boost:
   ubuntu:
-    jammy:
-      conan:
-        packages: [zlib/1.2.11]
+    conan:
+      packages: [boost]
+  osx:
+    conan:
+      packages: [boost]
+  windows:
+    conan:
+      packages: [boost]
+conan_box2d:
+  ubuntu:
+    conan:
+      packages: [box2d]
+  osx:
+    conan:
+      packages: [box2d]
+  windows:
+    conan:
+      packages: [box2d]
+conan_zlib:
+  ubuntu:
+    conan:
+      packages: [zlib]
+  osx:
+    conan:
+      packages: [zlib]
+  windows:
+    conan:
+      packages: [zlib]
+      
