@@ -10,31 +10,31 @@
 conan_boost:
   ubuntu:
     conan:
-      packages: [boost]
+      packages: [boost/1.84.0]
   osx:
     conan:
-      packages: [boost]
+      packages: [boost/1.84.0]
   windows:
     conan:
-      packages: [boost]
+      packages: [boost/1.84.0]
 conan_box2d:
   ubuntu:
     conan:
-      packages: [box2d]
+      packages: [box2d/2.3.1]
   osx:
     conan:
-      packages: [box2d]
+      packages: [box2d/2.3.1]
   windows:
     conan:
-      packages: [box2d]
+      packages: [box2d/2.3.1]
 conan_zlib:
   ubuntu:
     conan:
-      packages: [zlib]
+      packages: [zlib/1.3.1]
   osx:
     conan:
-      packages: [zlib]
+      packages: [zlib/1.3.1]
   windows:
     conan:
-      packages: [zlib]
+      packages: [zlib/1.3.1]
       
