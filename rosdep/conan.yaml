@@ -9,6 +9,8 @@
 #
 # package.xml not prepared for versioned dependencies:
 # https://robotics.stackexchange.com/questions/98835/rosdep-install-specific-version-of-dependencies
+#
+# Source list: https://docs.ros.org/en/independent/api/rosdep/html/sources_list.html
 
 conan_boost:
   ubuntu:
