@@ -8,7 +8,7 @@
 #       PACKAGE_ARGUMENTS_A
 #
 # package.xml not prepared for versioned dependencies:
-# https://stackoverflow.com/questions/78494052/rosdep-repository-with-versioned-ros2-packages
+# https://robotics.stackexchange.com/questions/98835/rosdep-install-specific-version-of-dependencies
 
 conan_boost:
   ubuntu:
